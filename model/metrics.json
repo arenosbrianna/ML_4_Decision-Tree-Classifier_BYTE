@@ -1,0 +1,32 @@
+{
+  "accuracy": 0.820830298616169,
+  "precision": 0.34658454647256437,
+  "recall": 0.6670258620689655,
+  "classification_report": "              precision    recall  f1-score   support\n\n          no       0.95      0.84      0.89      7310\n         yes       0.35      0.67      0.46       928\n\n    accuracy                           0.82      8238\n   macro avg       0.65      0.75      0.67      8238\nweighted avg       0.88      0.82      0.84      8238\n",
+  "top5_features": [
+    {
+      "feature": "num__nr.employed",
+      "importance": 0.6731195794237105
+    },
+    {
+      "feature": "num__cons.conf.idx",
+      "importance": 0.13559456874379436
+    },
+    {
+      "feature": "num__cons.price.idx",
+      "importance": 0.04275753395140063
+    },
+    {
+      "feature": "num__euribor3m",
+      "importance": 0.035021365679723235
+    },
+    {
+      "feature": "num__pdays",
+      "importance": 0.02739772463585842
+    }
+  ],
+  "target_classes": [
+    "no",
+    "yes"
+  ]
+}
